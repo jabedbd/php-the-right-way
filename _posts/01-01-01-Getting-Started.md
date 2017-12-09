@@ -1,4 +1,6 @@
 ---
+title: শুরু করুন
+isChild: false
 anchor: getting_started
 ---
 
