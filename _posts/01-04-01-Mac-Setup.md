@@ -1,22 +1,25 @@
 ---
+title: ম্যাক-এ সেটআপ  
 isChild: true
 anchor:  mac_setup
 ---
 
-## Mac Setup {#mac_setup_title}
+## ম্যাক-এ সেটআপ   {#mac_setup_title}
 
-OS X comes prepackaged with PHP but it is normally a little behind the latest stable. Mavericks has 5.4.17,
-Yosemite 5.5.9, El Capitan 5.5.29 and Sierra 5.6.24, but with PHP 7.1 out that is often not good enough.
+ম্যাকের OS X ভার্সন থেকে পিএইচপি প্রিপ্যাকেজ আকারেই দেয়া থাকে। কিন্তু সেখানে আপনি পিএইচপি এর সর্বশেষ ভার্সন পাবেন না। যেমন,  Mavericks এর সাথে 5.4.17, Yosemite এ 5.5.9, El Capitan এ  5.5.29 এবং  Sierra এর সাথে 5.6.24 দেয়া থাকে। কিন্তু যেহেতু এখন PHP এর 7.1 রিলিজ হয়ে গেছে সেহেতু পুরনো ভার্সনগুলো না ইউজ করে এটাই ইউজ করা উচিত। 
 
-There are multiple ways to install PHP on OS X.
+ম্যাক এ কয়েকটি উপায়ে পিএইচপি ইনস্টল করা যায়। তো চলুন, দেখি নেই উপায়গুলোঃ
 
-### Install PHP via Homebrew
+### Homebrew এর মাধ্যমে ইনষ্টল 
 
-[Homebrew] is a powerful package manager for OS X, which can help you install PHP and various extensions easily.
-[Homebrew PHP] is a repository that contains PHP-related "formulae" for Homebrew, and will let you install PHP.
+MAC এ পিএইচপি ইনস্টল করার জন্য  [Homebrew] একটি অসাধারণ টুল। এর মাধ্যমে আপনি খুব সহজেই পিএইচপি এর যেকোন ভার্সন ও বিভিন্ন ধরনের এক্সটেনশন ইনস্টল করতে পারবেন।   
+
+[Homebrew PHP] এই রিপোজিটরিতে Homebrew এর বিভিন্ন "formulae" দেয়া আছে যা আপনাকে পিএইচপি Install করতে সাহায্য করবে। 
 
 At this point, you can install `php53`, `php54`, `php55`, `php56`, `php70` or `php71` using the `brew install` command, and switch
-between them by modifying your `PATH` variable. Alternatively, you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
+between them by modifying your `PATH` variable. 
+এই মুহূর্তে, আপনি  `php53`, `php54`, `php55`, `php56`, `php70`  অথবা `php71` এর মধ্যে যেকোন ভার্সন `brew install` কমান্ডের মাধ্যমে খুব সহজেই ইনস্টল করতে পারবেন। 
+Alternatively, you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
 
 ### Install PHP via Macports
 
