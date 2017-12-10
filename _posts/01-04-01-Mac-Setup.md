@@ -16,8 +16,6 @@ MAC এ পিএইচপি ইনস্টল করার জন্য  [Hom
 
 [Homebrew PHP] এই রিপোজিটরিতে Homebrew এর বিভিন্ন "formulae" দেয়া আছে যা আপনাকে পিএইচপি Install করতে সাহায্য করবে। 
 
-At this point, you can install `php53`, `php54`, `php55`, `php56`, `php70` or `php71` using the `brew install` command, and switch
-between them by modifying your `PATH` variable. 
 এই মুহূর্তে, আপনি  `php53`, `php54`, `php55`, `php56`, `php70`  অথবা `php71` এর মধ্যে যেকোন ভার্সন `brew install` কমান্ডের মাধ্যমে খুব সহজেই ইনস্টল করতে পারবেন। 
 Alternatively, you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
 
